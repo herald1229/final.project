@@ -51,7 +51,7 @@ if (isset($_SESSION['session_status']) && $_SESSION['session_status'] == 1) {
                         $_SESSION['session_status'] = 1;
             
                         echo '<script type="text/javascript">
-                                alert("Login Successful");
+                                alert("Herald Logged in Successfully");
                                 window.location="searchrecord.php";
                               </script>';
                         exit();
